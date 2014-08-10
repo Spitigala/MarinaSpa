@@ -1,0 +1,40 @@
+.nav li {
+	margin-right: 10px;
+	padding: 20px 0;
+}
+
+
+#accordion {
+	width: 60%;
+	margin-left: 6%;
+}
+
+#accordion h4 {
+	/*border-radius: 0;*/
+	background: #DB0A5B;
+	color: white;
+}
+
+
+#accordion2 {
+	width: 40%;
+	margin-left: 5%;
+}
+
+
+#accordion3 {
+	width: 40%;
+	margin-left: 1%;
+}
+
+.service {
+	/*height: 30%;*/
+	font-size: .75em;
+	background: #DCC6E0;
+	color: black;
+}
+
+
+.service-title {
+	margin-left: 6%;
+}
