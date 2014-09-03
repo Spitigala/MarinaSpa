@@ -1,40 +1,170 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	/*background-color: #F64747;*/
+	/*background-image: url('./../titian.gif');*/
+	background-image: url('http://cdn.aliantegaming.com/or-spa-sliderimage.jpg');
+	background-repeat: repeat-y repeat-x;
+}
+
+
+.nav {
+	border-top: 10px solid #DB0A5B;;
+	border-bottom: 10px solid #DB0A5B;;
+}
+
 .nav li {
 	margin-right: 10px;
-	padding: 20px 0;
+	padding: 5px 0;
+	font-size: 1.2em;
 }
 
 
 #accordion {
-	width: 60%;
-	margin-left: 6%;
+	/*width: 60%;*/
+	/*margin-left: 6%;*/
 }
 
-#accordion h4 {
+#accordion2 h4 {
 	/*border-radius: 0;*/
-	background: #DB0A5B;
+	background: #8D0050;
 	color: white;
+	border: #8D0050;
+}
+
+#accordion3 h4 {
+	/*border-radius: 0;*/
+	background: #8D0050;
+	color: white;
+	border: #8D0050;
 }
 
 
 #accordion2 {
-	width: 40%;
-	margin-left: 5%;
+	width: 50%;
+	/*margin-left: 10%;*/
 }
 
 
 #accordion3 {
-	width: 40%;
-	margin-left: 1%;
+	width: 50%;
+	/*margin-left: 1%;*/
 }
 
 .service {
 	/*height: 30%;*/
 	font-size: .75em;
-	background: #DCC6E0;
+	background: #FFBAEC;
 	color: black;
 }
 
 
 .service-title {
-	margin-left: 6%;
+	margin-left: 11%;
+	color: white;
+}
+
+.nav li a {
+	color: #DB0A5B;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.nav li a:hover {
+	background-color: #DB0A5B;
+	color: white;
+	border-radius: 0;
+}
+
+.nav li:hover {
+	/*background: #DB0A5B;*/
+	color: white;
+}
+
+.nav {
+	/*background-color: #FFECDB;*/
+	background-color: white;
+}
+
+#carousel {
+	height: 500px;
+	background-image: url('http://thumbs.dreamstime.com/z/repeatable-paisley-pattern-hot-pink-background-16310543.jpg');
+}
+
+#wowslider-container1 {
+	margin-top: 1%;
+}
+
+#banner {
+	height: 140px;
+	border-top: 10px #DB0A5B solid;
+	border-bottom: 10px #DB0A5B solid;
+	background-color: #FFECDB;
+}
+
+#welcome-message {
+	color: #DB0A5B;
+	font-size: 2.1em;
+	font-family: 'Great Vibes', cursive;
+	margin-top: 2%;
+}
+
+.circle {
+	margin-top: 8%;
+	margin-left: 9%;
+	border-radius: 50%;
+	width: 300px;
+	height: 300px; 
+	background-color: #FF5DD3;
+	float: left;
+	/* width and height can be anything, as long as they're equal */
+}
+
+
+.highlight {
+	float: left;
+	width: 33%;
+}
+
+.nav .phone {
+	float: right;
+	margin-top: 1%;
+	margin-right: 5%;
+	font-size: 2em;
+	color: pink;
+}
+
+.nav .phone:hover {
+	color: pink;
+}
+
+.panel {
+	width: 60%;
+	margin-left: 20%;
+	margin-top: 2%;
+}
+
+.panel p {
+	font-size: .9em;
+}
+
+.panel-default > .panel-heading {
+  background-color: #8D0050;
+  color: white;
+}
+
+.panel-title {
+	font-size: 2em;
+}
+
+.nav .logo {
+	font-family: 'Great Vibes', cursive;
+	font-size: 1.5em;
+	background-color: #DB0A5B;
+	color: white;
+	border-radius: 0;
+}
+
+.about-marina {
+	margin-top: 2%;
+	font-size: 1.15em;
 }
